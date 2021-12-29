@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Treot.github.io/rsschool-cv/
