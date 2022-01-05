@@ -4,8 +4,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main">
+        <div class="header">
+            <img src="image/treot.png" alt="its my nickname" class="profile" >
+            <p class="p-name">Makeev <span>Gleb Pavlovich</span> </p>
+            <h1>Junior JS Devoloper</h1>
+        </div>
+        <div class="rabzona-1">
+            <div class="contentzona" style="padding-left: 40px;">
+                <p class="contact">Contact</p>
+                <p class="number"><img src="image/tlf.png" class="tlf">&nbsp;&nbsp;+7(996)-787-36-93</p>
+                <p class="number"><img src="image/mail.png" class="mail">&nbsp;&nbsp; treot@list.ru</p>
+                <p class="number"><img src="image/geo.png" class="geo">&nbsp;&nbsp; Russian Federation</p>
+              <br/>
+                <p class="contact">My Skills</p> 
+                <ul class="skills">
+                    <li><span>JavaScript</span></li>
+                    <li><span>Automated control system</span></li>
+                    <li><span>Framework React</span></li>
+                    <li><span>HTML-5</span></li>
+                    <li><span>CSS-3</span></li>
+                </ul>
+              <br/>
+                 <p class="contact">Awards</p>
+                 <p class="number">Everything is still ahead.</p>
+              <br/>
+                 <p class="contact">Languages</p>
+                 <p class="number">English A2</p>
+                 <p class="number">Russian</p>  
+              <br/>
+            </div>
+        </div>
+                <div class="line"></div>
+
+        <div class="rabzona-2">
+            <div class="contentzona">
+
+                <p class="contact">Profile</p>
+                <p class="number" style="font-size: 14px;">My goal in life is to constantly enlarge my brain, to replenish it with knowledge. That is why I came to the IT sphere, something interesting and funny is constantly happening here, it is never boring.Higher education complete. Specialty - engineer of automated control systems. In plans for the near future to become at least a senior.
+                    I speak English poorly enough. I often refer to the dictionary and do not build a sentence correctly.</p>
+                    <br/>
+                <p class="contact">Expirience</p>
+                <p class="number" style="font-size: 14px;">I wrote this text for changes in the future, because I have no experience.</p>
+                    <br/>
+                <p class="contact">Education</p>
+                <p class="number" style="font-size: 14px;"> In 2021 he entered the preparatory course “JavaScript /Front-end. Stage0"</p>
+                    <br/>
+                <p class="contact">Example of my work</p>
+                    <div class="code">
+                        <pre><code>
+                    import React from 'react';
+                    import styles from './Dialogs.module.css';
+                    import {NavLink} from &quot;react-router-dom&quot;;
+                    
+                    const DialogItem = (props) =&gt; {
+                        let path = &#x60;/dialogs/${props.id}&#x60;;
+                    
+                        return (
+                            &lt;div className={&#x60;${styles.dialog} ${styles.active}&#x60;}&gt;
+                                &lt;NavLink to={path}&gt;{props.name}&lt;/NavLink&gt;
+                            &lt;/div&gt;
+                        )
+                    }</code></pre>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div>
+            <a href="https://rs.school/js/"><img src="image/rs.svg" class="rsschool"></a>&nbsp;&nbsp;
+            <a href="https://github.com/Treot/rsschool-cv"><img src="image/git.png" class="git"></a>
+            
+           </div>
+    </footer>
+    </div>
+ 
 </body>
 </html>

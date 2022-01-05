@@ -1,1 +1,111 @@
-/* appstyles */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: radial-gradient(#fffb00 25%, #767a5f 74%);
+    font-family: system-ui;
+}
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.main {
+    height: 1150px;
+    width: 800px;
+    background-color: white;
+    box-shadow: 5px 7px 15px 5px #fff703;
+    margin: 20px auto;
+}
+.header{
+    background-image: radial-gradient(#ffee03 35%, #fbff03 65%);
+    text-align: center;
+    padding: 20px;
+}
+.p-name{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 10px;
+}
+.rabzona-1{
+    width: 35%;
+    float: left;
+}
+.tlf{
+    height: 14px;
+    width: 14px;
+}
+.mail{
+    height: 14px;
+    width: 14px;
+}
+.geo{
+    height: 14px;
+    width: 14px;
+}
+.rabzona-2{
+    width: 62%;
+    float: left;
+}
+.line{
+    border: 1px solid #817f7f;
+    height: 700px;
+    margin-top: 30px;
+    float: left;
+}
+.contentzona{
+    padding: 20px;
+}
+.contact{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.number{
+    color: #817f7f;
+    margin-bottom: -5px;
+}
+.phone{
+    color: radial-gradient(#03e2ff 35%, #0396ff 65%);
+}
+.contact li{
+    padding: 5px;
+}
+.contact li span{
+    color: #817f7f;
+}
+.skills{
+    margin-left: -20px;
+    margin-bottom: 0px;
+}
+.skills li{
+    padding: 5px;
+}
+.skills li span{
+    color: #817f7f;
+}
+.p-4{
+    font-size: 14px;
+    color:#817f7f;
+}
+.rsschool{
+    width: 65px;
+    height: 45px;
+}
+.git{
+    width: 45px;
+    height: 45px;
+}
+.code{
+    align-content: left;
+    padding: -20px;
+    margin-left: -144px;
+    margin-top: -20px;
+}
+.footer{
+    position: relative;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    }
